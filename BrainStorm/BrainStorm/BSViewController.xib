@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSViewController">
             <connections>
-                <outlet property="MenuArea" destination="ZUV-p3-hTM" id="LQa-rg-lrf"/>
+                <outlet property="MenuArea" destination="96t-5d-vRw" id="bee-aa-gQ0"/>
                 <outlet property="actionboard" destination="fhy-fa-ELc" id="Ur8-bk-Ati"/>
-                <outlet property="btn" destination="HIf-Ia-RdL" id="Bsc-ZQ-ECk"/>
-                <outlet property="btnA" destination="YpX-nk-lza" id="xb7-mH-wow"/>
-                <outlet property="btnB" destination="g2x-ff-nvf" id="B3O-cT-mXq"/>
-                <outlet property="btnC" destination="5Cv-ZE-QQF" id="s2h-Ip-bj0"/>
-                <outlet property="btnD" destination="Xqd-4q-le5" id="8ya-9L-hw4"/>
                 <outlet property="view" destination="iN0-l3-epB" id="8vR-YD-9cD"/>
             </connections>
         </placeholder>
@@ -21,63 +16,15 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view autoresizesSubviews="NO" appearanceType="aqua" contentMode="scaleToFill" id="2LE-AN-6EB">
+                <view autoresizesSubviews="NO" appearanceType="aqua" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2LE-AN-6EB">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="150"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <view autoresizesSubviews="NO" appearanceType="aqua" contentMode="scaleToFill" id="ZUV-p3-hTM">
-                            <rect key="frame" x="0.0" y="0.0" width="800" height="150"/>
+                        <scrollView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="96t-5d-vRw">
+                            <rect key="frame" x="0.0" y="0.0" width="794" height="150"/>
                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <button autoresizesSubviews="NO" appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HIf-Ia-RdL">
-                                    <rect key="frame" x="42" y="43" width="100" height="60"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.85740194520000002" green="0.85740194520000002" blue="0.85740194520000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <state key="normal" title="社交">
-                                        <color key="titleColor" red="0.066666666669999999" green="0.48627450979999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                </button>
-                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YpX-nk-lza">
-                                    <rect key="frame" x="168" y="43" width="100" height="60"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.85740194520000002" green="0.85740194520000002" blue="0.85740194520000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                    <state key="normal" title="留言">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                </button>
-                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g2x-ff-nvf">
-                                    <rect key="frame" x="302" y="43" width="100" height="60"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.85740194520000002" green="0.85740194520000002" blue="0.85740194520000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                    <state key="normal" title="拍照">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                </button>
-                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Cv-ZE-QQF">
-                                    <rect key="frame" x="428" y="43" width="100" height="60"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.85740194520000002" green="0.85740194520000002" blue="0.85740194520000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                    <state key="normal" title="地址位置">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                </button>
-                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xqd-4q-le5">
-                                    <rect key="frame" x="564" y="43" width="100" height="60"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.85740194520000002" green="0.85740194520000002" blue="0.85740194520000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                    <state key="normal" title="语音">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                </button>
-                            </subviews>
-                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        </view>
-                        <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="S2y-I8-8xg">
+                        </scrollView>
+                        <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2y-I8-8xg">
                             <rect key="frame" x="826" y="50" width="78" height="48"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.5" green="0.54560185189999999" blue="0.53078703699999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -85,8 +32,11 @@
                             <state key="normal" title="radom">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="radomActon:" destination="-1" eventType="touchUpInside" id="gmf-oO-9QN"/>
+                            </connections>
                         </button>
-                        <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JYf-a3-D9E">
+                        <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYf-a3-D9E">
                             <rect key="frame" x="919" y="50" width="77" height="49"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.5" green="0.54560185189999999" blue="0.53078703699999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -98,13 +48,13 @@
                     </subviews>
                     <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
-                <view autoresizesSubviews="NO" appearanceType="aqua" contentMode="scaleToFill" id="fhy-fa-ELc" userLabel="containt">
+                <view autoresizesSubviews="NO" appearanceType="aqua" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhy-fa-ELc" userLabel="containt">
                     <rect key="frame" x="0.0" y="152" width="1024" height="616"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="0.5" green="0.54560185185185184" blue="0.530787037037037" alpha="0.44" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.066666666669999999" green="0.48627450979999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>

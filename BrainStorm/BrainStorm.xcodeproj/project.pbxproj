@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		48488E3F1A1EF08600D6A3E4 /* BSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48488E3E1A1EF08600D6A3E4 /* BSNavigationController.m */; };
-		48488E511A1F2CE400D6A3E4 /* OBDragDropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48488E491A1F2CE400D6A3E4 /* OBDragDropManager.m */; };
-		48488E521A1F2CE400D6A3E4 /* OBLongPressDragDropGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48488E4C1A1F2CE400D6A3E4 /* OBLongPressDragDropGestureRecognizer.m */; };
-		48488E531A1F2CE400D6A3E4 /* UIGestureRecognizer+OBDragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 48488E4E1A1F2CE400D6A3E4 /* UIGestureRecognizer+OBDragDrop.m */; };
-		48488E541A1F2CE400D6A3E4 /* UIView+OBDropZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 48488E501A1F2CE400D6A3E4 /* UIView+OBDropZone.m */; };
 		487274D71A1DE6E1001F28B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487274D61A1DE6E1001F28B8 /* Foundation.framework */; };
 		487274D91A1DE6E1001F28B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487274D81A1DE6E1001F28B8 /* CoreGraphics.framework */; };
 		487274DB1A1DE6E1001F28B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 487274DA1A1DE6E1001F28B8 /* UIKit.framework */; };
@@ -26,6 +22,13 @@
 		487275001A1DE6E1001F28B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 487274FE1A1DE6E1001F28B8 /* InfoPlist.strings */; };
 		487275021A1DE6E1001F28B8 /* BrainStormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 487275011A1DE6E1001F28B8 /* BrainStormTests.m */; };
 		4872750E1A1DE8DF001F28B8 /* BSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4872750D1A1DE8DF001F28B8 /* BSViewController.xib */; };
+		48CFE8411A221EDB00020400 /* OBDragDropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CFE8351A221EDB00020400 /* OBDragDropManager.m */; };
+		48CFE8421A221EDB00020400 /* OBLongPressDragDropGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CFE8381A221EDB00020400 /* OBLongPressDragDropGestureRecognizer.m */; };
+		48CFE8431A221EDB00020400 /* UIGestureRecognizer+OBDragDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CFE83A1A221EDB00020400 /* UIGestureRecognizer+OBDragDrop.m */; };
+		48CFE8441A221EDB00020400 /* UIView+OBDropZone.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CFE83C1A221EDB00020400 /* UIView+OBDropZone.m */; };
+		48CFE8451A221EDB00020400 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CFE83E1A221EDB00020400 /* UIView+Extension.m */; };
+		48CFE8461A221EDB00020400 /* UIView+ModifyFram.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CFE8401A221EDB00020400 /* UIView+ModifyFram.m */; };
+		48CFE8491A222BB900020400 /* labelArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48CFE8481A222BB900020400 /* labelArray.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,16 +44,6 @@
 /* Begin PBXFileReference section */
 		48488E3D1A1EF08600D6A3E4 /* BSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNavigationController.h; sourceTree = "<group>"; };
 		48488E3E1A1EF08600D6A3E4 /* BSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNavigationController.m; sourceTree = "<group>"; };
-		48488E471A1F2CE400D6A3E4 /* OBDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDrop.h; sourceTree = "<group>"; };
-		48488E481A1F2CE400D6A3E4 /* OBDragDropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropManager.h; sourceTree = "<group>"; };
-		48488E491A1F2CE400D6A3E4 /* OBDragDropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDragDropManager.m; sourceTree = "<group>"; };
-		48488E4A1A1F2CE400D6A3E4 /* OBDragDropProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropProtocol.h; sourceTree = "<group>"; };
-		48488E4B1A1F2CE400D6A3E4 /* OBLongPressDragDropGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBLongPressDragDropGestureRecognizer.h; sourceTree = "<group>"; };
-		48488E4C1A1F2CE400D6A3E4 /* OBLongPressDragDropGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBLongPressDragDropGestureRecognizer.m; sourceTree = "<group>"; };
-		48488E4D1A1F2CE400D6A3E4 /* UIGestureRecognizer+OBDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+OBDragDrop.h"; sourceTree = "<group>"; };
-		48488E4E1A1F2CE400D6A3E4 /* UIGestureRecognizer+OBDragDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+OBDragDrop.m"; sourceTree = "<group>"; };
-		48488E4F1A1F2CE400D6A3E4 /* UIView+OBDropZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OBDropZone.h"; sourceTree = "<group>"; };
-		48488E501A1F2CE400D6A3E4 /* UIView+OBDropZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OBDropZone.m"; sourceTree = "<group>"; };
 		487274D31A1DE6E1001F28B8 /* BrainStorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainStorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		487274D61A1DE6E1001F28B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		487274D81A1DE6E1001F28B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +65,21 @@
 		4872750B1A1DE783001F28B8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		4872750C1A1DE783001F28B8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		4872750D1A1DE8DF001F28B8 /* BSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSViewController.xib; sourceTree = "<group>"; };
+		48CFE8331A221EDB00020400 /* OBDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDrop.h; sourceTree = "<group>"; };
+		48CFE8341A221EDB00020400 /* OBDragDropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropManager.h; sourceTree = "<group>"; };
+		48CFE8351A221EDB00020400 /* OBDragDropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDragDropManager.m; sourceTree = "<group>"; };
+		48CFE8361A221EDB00020400 /* OBDragDropProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDragDropProtocol.h; sourceTree = "<group>"; };
+		48CFE8371A221EDB00020400 /* OBLongPressDragDropGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBLongPressDragDropGestureRecognizer.h; sourceTree = "<group>"; };
+		48CFE8381A221EDB00020400 /* OBLongPressDragDropGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBLongPressDragDropGestureRecognizer.m; sourceTree = "<group>"; };
+		48CFE8391A221EDB00020400 /* UIGestureRecognizer+OBDragDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+OBDragDrop.h"; sourceTree = "<group>"; };
+		48CFE83A1A221EDB00020400 /* UIGestureRecognizer+OBDragDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+OBDragDrop.m"; sourceTree = "<group>"; };
+		48CFE83B1A221EDB00020400 /* UIView+OBDropZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OBDropZone.h"; sourceTree = "<group>"; };
+		48CFE83C1A221EDB00020400 /* UIView+OBDropZone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OBDropZone.m"; sourceTree = "<group>"; };
+		48CFE83D1A221EDB00020400 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		48CFE83E1A221EDB00020400 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		48CFE83F1A221EDB00020400 /* UIView+ModifyFram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ModifyFram.h"; sourceTree = "<group>"; };
+		48CFE8401A221EDB00020400 /* UIView+ModifyFram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ModifyFram.m"; sourceTree = "<group>"; };
+		48CFE8481A222BB900020400 /* labelArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = labelArray.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,23 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48488E461A1F2CE400D6A3E4 /* OBDragDrop */ = {
-			isa = PBXGroup;
-			children = (
-				48488E471A1F2CE400D6A3E4 /* OBDragDrop.h */,
-				48488E481A1F2CE400D6A3E4 /* OBDragDropManager.h */,
-				48488E491A1F2CE400D6A3E4 /* OBDragDropManager.m */,
-				48488E4A1A1F2CE400D6A3E4 /* OBDragDropProtocol.h */,
-				48488E4B1A1F2CE400D6A3E4 /* OBLongPressDragDropGestureRecognizer.h */,
-				48488E4C1A1F2CE400D6A3E4 /* OBLongPressDragDropGestureRecognizer.m */,
-				48488E4D1A1F2CE400D6A3E4 /* UIGestureRecognizer+OBDragDrop.h */,
-				48488E4E1A1F2CE400D6A3E4 /* UIGestureRecognizer+OBDragDrop.m */,
-				48488E4F1A1F2CE400D6A3E4 /* UIView+OBDropZone.h */,
-				48488E501A1F2CE400D6A3E4 /* UIView+OBDropZone.m */,
-			);
-			path = OBDragDrop;
-			sourceTree = "<group>";
-		};
 		487274CA1A1DE6E1001F28B8 = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +139,7 @@
 		487274DC1A1DE6E1001F28B8 /* BrainStorm */ = {
 			isa = PBXGroup;
 			children = (
-				48488E461A1F2CE400D6A3E4 /* OBDragDrop */,
+				48CFE8311A221EDB00020400 /* third */,
 				487274E51A1DE6E1001F28B8 /* BSAppDelegate.h */,
 				487274E61A1DE6E1001F28B8 /* BSAppDelegate.m */,
 				487274EB1A1DE6E1001F28B8 /* BSViewController.h */,
@@ -158,6 +149,7 @@
 				487274DD1A1DE6E1001F28B8 /* Supporting Files */,
 				48488E3D1A1EF08600D6A3E4 /* BSNavigationController.h */,
 				48488E3E1A1EF08600D6A3E4 /* BSNavigationController.m */,
+				48CFE8481A222BB900020400 /* labelArray.plist */,
 			);
 			path = BrainStorm;
 			sourceTree = "<group>";
@@ -189,6 +181,35 @@
 				487274FE1A1DE6E1001F28B8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48CFE8311A221EDB00020400 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				48CFE8321A221EDB00020400 /* OBDragDrop */,
+				48CFE83D1A221EDB00020400 /* UIView+Extension.h */,
+				48CFE83E1A221EDB00020400 /* UIView+Extension.m */,
+				48CFE83F1A221EDB00020400 /* UIView+ModifyFram.h */,
+				48CFE8401A221EDB00020400 /* UIView+ModifyFram.m */,
+			);
+			path = third;
+			sourceTree = "<group>";
+		};
+		48CFE8321A221EDB00020400 /* OBDragDrop */ = {
+			isa = PBXGroup;
+			children = (
+				48CFE8331A221EDB00020400 /* OBDragDrop.h */,
+				48CFE8341A221EDB00020400 /* OBDragDropManager.h */,
+				48CFE8351A221EDB00020400 /* OBDragDropManager.m */,
+				48CFE8361A221EDB00020400 /* OBDragDropProtocol.h */,
+				48CFE8371A221EDB00020400 /* OBLongPressDragDropGestureRecognizer.h */,
+				48CFE8381A221EDB00020400 /* OBLongPressDragDropGestureRecognizer.m */,
+				48CFE8391A221EDB00020400 /* UIGestureRecognizer+OBDragDrop.h */,
+				48CFE83A1A221EDB00020400 /* UIGestureRecognizer+OBDragDrop.m */,
+				48CFE83B1A221EDB00020400 /* UIView+OBDropZone.h */,
+				48CFE83C1A221EDB00020400 /* UIView+OBDropZone.m */,
+			);
+			path = OBDragDrop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				487274EF1A1DE6E1001F28B8 /* Images.xcassets in Resources */,
+				48CFE8491A222BB900020400 /* labelArray.plist in Resources */,
 				4872750E1A1DE8DF001F28B8 /* BSViewController.xib in Resources */,
 				487274E11A1DE6E1001F28B8 /* InfoPlist.strings in Resources */,
 			);
@@ -291,13 +313,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				48488E3F1A1EF08600D6A3E4 /* BSNavigationController.m in Sources */,
-				48488E521A1F2CE400D6A3E4 /* OBLongPressDragDropGestureRecognizer.m in Sources */,
+				48CFE8451A221EDB00020400 /* UIView+Extension.m in Sources */,
+				48CFE8431A221EDB00020400 /* UIGestureRecognizer+OBDragDrop.m in Sources */,
 				487274ED1A1DE6E1001F28B8 /* BSViewController.m in Sources */,
+				48CFE8441A221EDB00020400 /* UIView+OBDropZone.m in Sources */,
+				48CFE8461A221EDB00020400 /* UIView+ModifyFram.m in Sources */,
 				487274E31A1DE6E1001F28B8 /* main.m in Sources */,
-				48488E541A1F2CE400D6A3E4 /* UIView+OBDropZone.m in Sources */,
-				48488E531A1F2CE400D6A3E4 /* UIGestureRecognizer+OBDragDrop.m in Sources */,
+				48CFE8411A221EDB00020400 /* OBDragDropManager.m in Sources */,
+				48CFE8421A221EDB00020400 /* OBLongPressDragDropGestureRecognizer.m in Sources */,
 				487274E71A1DE6E1001F28B8 /* BSAppDelegate.m in Sources */,
-				48488E511A1F2CE400D6A3E4 /* OBDragDropManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
